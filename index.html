@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pradeep Kamineni projects</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./Images/profile.jpg">
+
+</head>
+
+<body>
+
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+        <div class="circle"></div>
+    </div>
+
+
+
+
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./Images/logo.jpg" width="70" height="40">
+
+            </a>
+            <p class="title">βpΚ</p>
+            <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#Achievements" class="navbar-link">Achievementss</a>
+                    </li>
+
+                    <li>
+                        <a href="#Skills" class="navbar-link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="navbar-link">Project</a>
+                    </li>
+
+                    <li>
+                        <a href="#Blog" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#Contact" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #Profile
+      -->
+
+            <section class="section Profile" aria-label="home">
+                <div class="container">
+
+                    <div class="Profile-content">
+
+                        <h1 class="h1 Profile-title">Pradeep Kamineni</h1>
+
+                        <p class="Profile-subtitle">
+
+                        </p>
+
+                        <div class="Profile-banner">
+                            <img src="./Images/profile.jpg" width="200" height="200" alt="Pradeep Kamineni">
+                        </div>
+
+                        <p class="section-text" style="font-weight: bolder; left: 30px; color: #b7b7b7;">
+                            Hi, I’m Pradeep Kamineni, a passionate Artificial Intelligence and Data Science graduate.
+                            I’m driven by curiosity and creativity to explore the endless possibilities of AI and data
+                        </p>
+
+                        <a href="./assets/Pradeep Kamineni Resume.pdf" target="_blank" class="btn has-before">
+                            <span class="span">Download CV</span>
+
+                            <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #Achievements
+      -->
+
+            <section class="Achievements" aria-labelledby="Achievements-label" id="Achievements">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <div>
+                            <p class="section-subtitle">
+                                Achievements I Have Accomplished
+                            </p>
+
+                            <h2 class="h2 section-title" id="Achievements-label">Achievements</h2>
+                        </div>
+
+                        <p class="section-text">
+                            My academic achievements reflect a strong foundation in analytical thinking and technical
+                            proficiency.
+                            I am committed to continuous learning and applying my knowledge to address complex,
+                            real-world challenges.
+                        </p>
+
+                    </div>
+
+                    <div class="slider" data-slider>
+
+                        <ul class="slider-container Achievements-list" data-slider-container>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="Achievements-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="cloud-upload-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">Paper Published</h3>
+
+                                    <p class="card-text">
+                                        Published a research paper in IEEE, contributing original findings to the field
+                                        of Artificial Intelligence and Data Science.
+                                    </p>
+
+                                    <span class="text-lg card-number">01</span>
+
+                                    <a href="https://ieeexplore.ieee.org/document/10940731" target="_blank"
+                                        class="layer-link" aria-label="More about my research paper"></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="Achievements-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="ribbon-outline"
+                                            aria-label="AWS Academy Graduate badge earned on Credly"></ion-icon>
+
+                                    </div>
+
+                                    <h3 class="h3 card-title">AWS Academy Graduate</h3>
+
+                                    <p class="card-text">
+                                        Earned the AWS Academy Graduate badge on Credly, demonstrating foundational
+                                        proficiency in cloud computing and core AWS services.
+                                    </p>
+
+                                    <span class="text-lg card-number">02</span>
+
+                                    <a href="https://www.credly.com/badges/df2174cb-98d9-4588-b124-010de2d80395/public_url"
+                                        target="_blank" class="layer-link"
+                                        aria-label="AWS Academy Graduate badge earned on Credly"></a>
+
+                                </div>
+                            </li>
+
+                            <li class="slider-item" data-slider-item>
+                                <div class="Achievements-card">
+
+                                    <div class="card-icon">
+                                        <ion-icon name="briefcase-outline"></ion-icon>
+                                    </div>
+
+                                    <h3 class="h3 card-title">IEEE Conference Organization</h3>
+
+                                    <p class="card-text">
+                                        Played a vital role in organizing the prestigious IEEE conference, enhancing my
+                                        event management, leadership, and networking skills while contributing to the
+                                        advancement of cutting-edge technology discussions
+                                    </p>
+
+                                    <span class="text-lg card-number">03</span>
+
+                                    <a href="#" class="layer-link"
+                                        aria-label="More about my eCommerce Achievements"></a>
+
+                                </div>
+                            </li>
+
+                            
+
+
+                        </ul>
+
+                        <div class="slider-controls">
+                            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+
+                            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #SKILLS
+      -->
+
+            <section class="section skills" aria-label="our skills" id="Skills">
+                <div class="container">
+
+                    <p class="section-subtitle">Creating What Comes Next</p>
+
+                    <h2 class="h2 section-title">My Technocraft</h2>
+
+                    <div class="skills-wrapper">
+
+                        <div>
+                            <p class="section-text">
+                                I specialize in data science, harnessing Python to build machine learning and deep
+                                learning models.From data wrangling to predictive analytics, I turn raw information into
+                                intelligent
+                                solutions.
+                                AI isn’t just a field for me—it’s where creativity meets impact in every project I
+                                build.
+                            </p>
+                            <p class="section-text">
+                                Alongside data science, I bring strong foundations in web and app development.
+                                With skills in Pega, Java, HTML, and CSS, I craft full-stack solutions that are both
+                                smart and scalable.Together, my tech stack allows me to engineer end-to-end
+                                experiences—driven by data,
+                                powered by design.
+                            </p>
+
+                            <a href="#" class="btn has-before">bunnykami7@gmail.com</a>
+                        </div>
+
+                        <div class="slider" data-slider>
+                            <ul class="slider-container skills-list" data-slider-container>
+
+                                <!-- Skill 1: AI -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/chip.png" alt="AI" width="50px" height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Artificial Intelligence</h3>
+                                    </div>
+                                </li>
+
+                                <!-- Skill 1: Machine Learning -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/machine-learning.png" alt="Machine Learning" width="50px"
+                                                height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Machine Learning</h3>
+
+                                    </div>
+                                </li>
+
+                                <!-- Skill 3: Deep Learning-->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/deep-learning.png" alt="Deep Learning" width="50px"
+                                                height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Deep Learning</h3>
+                                    </div>
+                                </li>
+
+                                <!-- Skill 4: Phyton -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/python.png" alt="Phyton" width="50px" height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Phyton </h3>
+                                    </div>
+                                </li>
+                                </li>
+                                <!-- Skill 5: Java -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/java.png" alt="java" width="50px" height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Java </h3>
+                                    </div>
+                                </li>
+                                </li>
+                                <!-- Skill 6: Pega -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/pegasus-winged-horse-black-side-view-silhouette-shape.png"
+                                                alt="Pega" width="50px" height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">Pega </h3>
+                                    </div>
+                                </li>
+                                </li>
+
+                                <!-- Skill 7: web Design -->
+                                <li class="slider-item" data-slider-item>
+                                    <div class="Achievements-card-1">
+                                        <div class="card-icon">
+                                            <img src="./Images/coding.png" alt="web Design" width="50px" height="30px">
+                                        </div>
+                                        <h4 class="h4 card-title">web Design </h3>
+                                    </div>
+                                </li>
+                                </li>
+
+
+                            </ul>
+
+                            <!-- Slider Controls -->
+                            <div class="slider-controls">
+                                <button class="slider-control prev" data-slider-prev
+                                    aria-label="Slide to previous item">
+                                    <div class="line"></div>
+                                    <div class="arrow"></div>
+                                </button>
+
+                                <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                                    <div class="line"></div>
+                                    <div class="arrow"></div>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- 
+        - #PORJECTS
+      -->
+
+            <section class="projects" aria-labelledby="projects-label" id="projects">
+
+                <div class="title-wrapper container">
+
+                    <div>
+                        <p class="section-subtitle" id="projects-label">From Concept to Code</p>
+
+                        <h2 class="h2 section-title">Projects</h2>
+                    </div>
+
+                    <p class="section-text">
+                        🧠 Just some cool stuff I’ve built using data, code, and curiosity.
+                        📈 From spotting trends to training smart models – it’s all about making data do the talking.
+                    </p>
+
+                </div>
+
+                <div class="slider" data-slider>
+
+                    <ul class="slider-container" data-slider-container>
+
+                        <li class="slider-item">
+                            <div class="projects-card img-holder" style="--width: 600; --height: 600;">
+
+                                <img src="./Images/Data Poisoning.jpg" width="600" height="600" loading="lazy"
+                                    alt="projects" class="img-cover">
+
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Data Poisoning</h3>
+
+                                    <p class="card-text">Using GAN & DAE</p>
+                                </div>
+
+                                <a href="#" class="layer-link"></a>
+
+                            </div>
+                        </li>
+
+                        <li class="slider-item">
+                            <div class="projects-card img-holder" style="--width: 600; --height: 600;">
+
+                                <img src="./Images/Attrition.jpg" width="600" height="600" loading="lazy" alt="projects"
+                                    class="img-cover">
+
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Attrition</h3>
+
+                                    <p class="card-text">Using KNN</p>
+                                </div>
+
+                                <a href="#" class="layer-link"></a>
+
+                            </div>
+                        </li>
+
+                        <li class="slider-item">
+                            <div class="projects-card img-holder" style="--width: 600; --height: 600;">
+
+                                <img src="./Images/fraud.jpg" width="600" height="600" loading="lazy" alt="projects"
+                                    class="img-cover">
+
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Fraud Detection</h3>
+
+                                    <p class="card-text">Using Page</p>
+                                </div>
+
+                                <a href="#" class="layer-link"></a>
+
+                            </div>
+                        </li>
+
+                        <li class="slider-item">
+                            <div class="projects-card img-holder" style="--width: 600; --height: 600;">
+
+                                <img src="./Images/House Price Prediction.jpg" width="600" height="600" loading="lazy"
+                                    alt="projects" class="img-cover">
+
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">House Price Prediction</h3>
+
+                                    <p class="card-text">In BhartIntern Internship</p>
+                                </div>
+
+                                <a href="#" class="layer-link"></a>
+
+                            </div>
+                        </li>
+
+
+
+                    </ul>
+
+                    <div class="slider-controls">
+                        <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                            <div class="line"></div>
+                            <div class="arrow"></div>
+                        </button>
+
+                        <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                            <div class="line"></div>
+                            <div class="arrow"></div>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+
+            <!-- 
+        - #BLOG
+      -->
+
+            <section class="section blog" aria-labelledby="blog-label" id="Blog">
+                <div class="container">
+
+                    <p class="section-subtitle" id="blog-label">Fresh Insights</p>
+
+                    <h2 class="h2 section-title">Latest News</h2>
+
+                    <ul class="blog-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                                    <img src="./Images/conf pres.png" width="700" height="470" loading="lazy"
+                                        alt="ICEARS2025 Conference Presentation." class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-24">
+                                        <span class="span text-lg">12</span>
+                                        Feb2025
+                                    </time>
+
+                                    <div>
+                                        <h3 class="h3 card-title">ICEARS 2025 Conference Presentation</h3>
+
+                                        <p class="card-text">
+                                            Proudly presenting our research at ICEARS 2025, exploring cutting-edge
+                                            techniques in AI-driven data poisoning detection.
+                                            Our paper offers a novel framework to enhance model robustness in
+                                            archaeological image datasets.
+                                        </p>
+
+                                        <a href="https://ieeexplore.ieee.org/document/10940731" target="_blank"
+                                            class="btn has-before">
+                                            <span class="span">Read more</span>
+
+                                            <ion-icon name="arrow-forward"></ion-icon>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                                    <img src="./Images/Pega Sr.System Architect.jpg" width="700" height="470"
+                                        loading="lazy" alt="Pega Senior System Architect – Certified Expertise"
+                                        class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-27">
+                                        <span class="span text-lg">31</span>
+                                        Jun2025
+                                    </time>
+
+                                    <div>
+                                        <h3 class="h3 card-title">Credentialed Senior System Architect | Pega Certified
+                                        </h3>
+
+                                        <p class="card-text">
+                                            Certified as a Pega Senior System Architect, I specialize in designing
+                                            scalable, enterprise-grade applications with precision and agility. This
+                                            certification reflects my deep expertise in case management, data modeling,
+                                            and rule-based automation using the Pega platform.
+                                        </p>
+
+                                        <a href="#" class="btn has-before">
+                                            <span class="span">Read more</span>
+
+                                            <ion-icon name="arrow-forward"></ion-icon>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="Contact">
+        <div class="container">
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Get in touch</p>
+                </li>
+
+                <li>
+                    <a href="mailto:info@kwilliams.com" class="footer-link">bunnykami7@gmail.com</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Locations</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Thimmapuram - Andhra Pradesh</a>
+                </li>
+
+            </ul>
+
+            <ul class="social-list">
+
+
+
+                <li>
+                    <a href="https://github.com/Kamineni-Pradeep" target="_blank" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/pradeep-kamineni-72792b24a/" target="_blank"
+                        class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="Script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
